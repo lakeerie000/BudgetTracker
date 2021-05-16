@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  background-color: #dbdbdb;
+}
+
+#home:link {
+  color: #ded7f5;
+  text-decoration-style: none;
+}
+
+#home:visited {
+    color: #ded7f5;
+}
+
+#home:hover {
+    color: #b8b1cc;
+}
+
+#about:link {
+  color: #ded7f5;
+  text-decoration-style: none;
+}
+
+#about:visited {
+    color: #ded7f5;
+}
+
+#about:hover {
+    color: #b8b1cc;
+}
+
+ul {
+  font-family: 'Unica One', cursive;
+  color: #ded7f5;
+    background-image: linear-gradient(to right, #bcbbbf 0%, #bfbbc9 30%, #b7b1c7 55%, #aea5c7 100%);
+  margin-top: 0;
+  height: 6vw;
+  list-style-type: none;
+  font-size: 3vw;
+  padding-top: 2vw;
+  text-decoration-style: none;
+}
+
+li {
+  text-decoration-style: none;
+  text-align: center;
+  display: inline;
+  padding-top: 1vw;
+}
+
+#home {
+  margin-left: 2vw;
+}
+
+#about {
+  margin-left: 2vw;
+}
+
+.title {
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  font-size: 6vw;
+}
+
+.words {
+  font-family: 'Unica One', cursive;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.buttons {
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  font-size: 4.5vw;
+  border-radius: 30%;
+  border: 10px solid #cdc5e3;
+  margin-left: 40vw;
+  float: left;
+  background-color: #cdc5e3;
+  color: white;
+  text-decoration: none; 
+}
+
+#business {
+  margin: auto;
+  margin-left: 45%;
+}
+
+#personal {
+  margin: auto;
+  margin-top: -6.65vw;
+  margin-left: 50%;
+}
+
+.firstb {
+  font-family: 'Unica One', cursive;
+  margin-left: -10%;
+}
+
+#text1b {
+  margin-left: -75%;
+  font-size: 3vw;
+}
+
+#input1b {
+  height: 3vw;
+  width: 20vw;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: -5vw;
+  margin-left: -76%;
+}
+
+#submit:hover {
+  background-color: #aea5c7;
+}
+
+#load:hover {
+  background-color: #aea5c7;
+}
+
+#submit {
+  margin-left: 5vw;
+  color: white;
+  border-radius: 25%;
+  border: none;
+  background-color: #bcbbbf;
+  font-family: 'Unica One', cursive;
+  font-size: 3vw;
+  /* width: 15vw;
+  height: 8vw; */
+  transition-duration: 0.4s;
+}
+
+#load {
+  margin-left: 5vw;
+  color: white;
+  border-radius: 25%;
+  border: none;
+  background-color: #bcbbbf;
+  font-family: 'Unica One', cursive;
+  font-size: 3vw;
+  width: 15vw;
+  height: 8vw;
+  transition-duration: 0.4s;
+}
+
+#line {
+  border-left: 3px dotted white;
+  height: 55vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -20vw;
+  margin-top: 20vw;
+  top: 0;
+}
+
+#info {
+  margin-left: 50vw;
+  margin-bottom: 50vw;
+}
+
+.le {
+  font-family: 'Unica One', cursive;
+  font-size: 1vw;
+  margin-left: 5vw;
+}
+
+.input {
+  text-align: center;
+}
+
+#result {
+  font-family: 'Unica One', cursive;
+  margin-left: 5vw;
+}
+
+h2 {
+  font-family: 'Unica One', cursive;
+}
+
+#budgetAmount {
+  font-family: 'Unica One', cursive;
+  margin-top: 5vw;
+}
+
+#pre {
+  font-family: 'Unica One', cursive;
+  margin-left: 5vw;
+  text-align: left;
+  width: 11vw;
+}
+
+.real {
+  font-size: 2vw;
+  margin-left: 50vw;
+  color: #373045;
+}
+
+#bud {
+  margin-top: -40vw;
+}
+
+#bout {
+  font-size: 2vw;
+  font-family: 'Unica One', cursive;
+  margin-top: -12vw;
+  margin-left: 25vw;
+}
+
+#img {
+  margin-left: 3vw;
+}
