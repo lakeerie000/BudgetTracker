@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+
+
+	<div>
+		<ul id="navbar">
+			<li>
+				<a href="index.html" id="home">Home</a>
+			</li>
+			<li>
+				<a href="about.html" id="about">About</a>
+			</li>
+		</ul>
+	</div>
+
+	<h1 class="title">Budget Tracker</h1>
+
+	<!-- <p class="words">Next, put down your expense categories.</p> -->
+
+	<form action="PayslipServlet" method="get" id="form">
+
+		<h5 class="le">Total Budget (If you already put your amount <br>  before, there's no need to put it in again):</h5> <input type="number" name="to" id="to" class="le" class="input"><br/>
+
+		<h5 class="le">Date:</h5> <input type="text" name="da" id="da" class="le" class="input"><br/>
+
+        <h5 class="le">Category:</h5>    <input type="text" name="ca" id="ca" class="le" class="input"><br/>
+
+                <h5 class="le">Previous Expense:</h5>   <input type="number" name="pre" id ="pre" class="input" class="input"><br/>
+
+        <h5 class="le">Expense:</h5>   <input type="number" name="ex" id ="ex" class="le" class="input"><br/>
+        <br>
+        <input id="submit" type="button" value="Submit" onClick="pr(), budget(), exp(), budg()">
+
+        <h5 class="le">Last Amount Entered:</h5>
+
+        <span id="result"></span>
+    </form>
+
+        
+  <div id="line"></div>
+
+
+
+
+        <div class="budget-section">
+
+
+
+        <div class="real" id="bud">
+          <h2>Budget</h2>
+          <p class="numb">$ 
+          <span id="budgetAmount"></span></p>
+        </div>
+
+        <div class="real" id="exp">
+          <h2>Expense</h2>
+          <p class="numb">$ <span id="expensesAmount"></span></p>
+        </div>
+
+        <div class="real" id="bal">
+          <h2>Balance</h2>
+          <p class="numb">$ <span id="balanceAmount"></span></p>
+        </div>
+
+      </div>
+
+
+</body>
+
+</html>
